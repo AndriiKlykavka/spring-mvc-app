@@ -9,7 +9,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String showPage() {
-        System.out.println("seased");
         return "main-menu";
     }
 
